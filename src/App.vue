@@ -669,8 +669,8 @@ body {
 
 .countdown-card {
   position: relative;
-  background: rgba(9, 41, 31, 0.52);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(3, 26, 18, 0.62);
+  border: 1px solid rgba(166, 213, 189, 0.16);
   border-radius: 20px;
   min-height: 152px;
   display: flex;
@@ -680,7 +680,7 @@ body {
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   overflow: hidden;
-  box-shadow: 0 16px 35px -8px rgba(3, 20, 15, 0.6), inset 0 1px 1px rgba(255, 255, 255, 0.12);
+  box-shadow: 0 16px 35px -8px rgba(1, 14, 9, 0.7), inset 0 1px 1px rgba(255, 255, 255, 0.14);
   transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
               box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1),
               border-color 0.4s ease,
@@ -693,10 +693,10 @@ body {
 /* Floating animation on cards */
 .countdown-card:hover {
   transform: translateY(-8px) scale(1.025);
-  background: rgba(12, 52, 40, 0.65);
-  border-color: rgba(166, 213, 189, 0.4);
-  box-shadow: 0 24px 45px -10px rgba(2, 18, 13, 0.8),
-              0 0 25px rgba(100, 220, 150, 0.22),
+  background: rgba(5, 36, 25, 0.78);
+  border-color: rgba(166, 213, 189, 0.45);
+  box-shadow: 0 24px 45px -10px rgba(1, 14, 9, 0.88),
+              0 0 25px rgba(74, 222, 128, 0.22),
               inset 0 1px 2px rgba(255, 255, 255, 0.25);
 }
 
